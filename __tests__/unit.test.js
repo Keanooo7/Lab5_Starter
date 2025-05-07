@@ -76,8 +76,8 @@ test('isDate: "2020/12/31" returns false', () => {
   expect(isDate('2020/12/31')).toBe(false);
 });
 
-test('isDate: "12/122/2020" returns false', () => {
-  expect(isDate('31/12/2020')).toBe(false);
+test('isDate: "12/15/20" returns false', () => {
+  expect(isDate('12/15/20')).toBe(false);
 });
 
 // Tests for isHexColor
